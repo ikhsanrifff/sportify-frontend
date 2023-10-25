@@ -7,7 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      'bg-booking': "url('/public/bg-booking.png')",
     },
   },
   plugins: [],

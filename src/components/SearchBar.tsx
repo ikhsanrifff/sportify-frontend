@@ -5,7 +5,7 @@ import { useState } from "react";
 const SearchBar = () => {
   const [venue, setVenue] = useState('');
 
-  const handleSearch = () =>{}
+  const handleSearch = () => { }
 
   return (
     <form className="" onSubmit={handleSearch}>

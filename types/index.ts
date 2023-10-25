@@ -1,6 +1,6 @@
 import React from 'react'
 
-export interface  SearchVenueProps {
+export interface SearchVenueProps {
     venue: string;
     setVenue: (venue: string) => void;
 }
