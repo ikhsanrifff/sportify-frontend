@@ -15,7 +15,7 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <Image className=' col-auto' src={'/ring-basket.png'} alt='ringbasket' width={500} height={500}></Image>
+          <Image className=' col-auto' src={'/ring-basket.png'} alt='ringbasket' width={500} height={500}/>
         </div>
       </div>
 
@@ -23,7 +23,7 @@ export default function Home() {
         <form className='p-5 xl:p-10 w-min xl:w-max m-auto rounded-sm'>
           <div className='flex flex-col mt-10 xl:mt-0 xl:flex-row justify-center bg-white p-8 rounded-lg shadow-xl gap-10 xl:gap-28'>
             <div className='rounded-lg flex'>
-              <img className=' bg-[#1B7996] w-max p-5 xl:p-8 rounded-lg' src={'/v-lokasi.png'} alt={'lokasi'} width={60} height={60}></img>
+              <Image className=' bg-[#1B7996] w-max p-6 xl:p-8 rounded-lg' src={'/v-lokasi.png'} alt={'lokasi'} width={0} height={0}/>
               <div className='p-3'>
                 <p className='font-semibold text-lg xl:text-xl'>Lokasi</p>
                 <select className='text-sm xl:text-xl' required>
@@ -36,7 +36,7 @@ export default function Home() {
             </div>
             
             <div className='rounded-lg flex'>
-              <img className=' bg-[#1B7996] w-max p-5 xl:p-8 rounded-lg' src={'/v-caraga.png'} alt={'cabang'} width={65} height={65}></img>
+              <Image className=' bg-[#1B7996] w-max p-6 xl:p-8 rounded-lg' src={'/v-caraga.png'} alt={'cabang'} width={20} height={0}/>
               <div className='p-3 '>
                 <p className='font-semibold text-lg xl:text-xl'>Cabang</p>
                 <select className='text-sm xl:text-xl' required>
@@ -99,19 +99,19 @@ export default function Home() {
 
         <div className='flex justify-between p-1 xl:p-6'>
           <div className='xl:w-48 xl:h-48 w-16 h-16 flex flex-col m-auto'>
-            <img src='/img-kemudahan-akses.png' className='m-auto' width={100} height={100} />
+            <Image src='/img-kemudahan-akses.png' alt={'akses-mudah'} className='m-auto' width={100} height={100} />
             <p className='m-auto text-[#1B7996] text-xs xl:text-lg p-3'>Kemudahan Akses</p>
           </div>
           <div className='xl:w-48 xl:h-48 w-16 h-16 flex flex-col m-auto'>
-            <Image className='m-auto' src={'/img-keterjangkauan.png'} alt={'mudah'} width={100} height={100} />
+            <Image className='m-auto' src={'/img-keterjangkauan.png'} alt={'jangkauan'} width={100} height={100} />
             <p className='m-auto text-[#1B7996] text-xs xl:text-lg p-3'>Keterejangkauan</p>
           </div>
           <div className='xl:w-48 xl:h-48 w-16 h-16 flex flex-col m-auto'>
-            <Image className='m-auto' src={'/img-tranparansi.png'} alt={'mudah'} width={100} height={100} />
+            <Image className='m-auto' src={'/img-tranparansi.png'} alt={'tranparansi'} width={100} height={100} />
             <p className='m-auto text-[#1B7996] text-xs xl:text-lg text p-3'>Tranparansi</p>
           </div>
           <div className='xl:w-48 xl:h-48 w-16 h-16 flex flex-col m-auto'>
-            <Image className='m-auto' src={'/img-efisiensi-akurasi.png'} alt={'mudah'} width={100} height={100} />
+            <Image className='m-auto' src={'/img-efisiensi-akurasi.png'} alt={'efisiensi-akurasi'} width={100} height={100} />
             <p className='m-auto text-[#1B7996] text-xs xl:text-lg p-3'>Efisiensi & Akurasi</p>
           </div>
         </div>
