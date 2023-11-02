@@ -1,8 +1,12 @@
 import React from 'react'
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import Header from '@/components/Header'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  weight: ['400', '500', '700'],
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+})
 
 export default function VenueLayout({
   children,
@@ -11,7 +15,7 @@ export default function VenueLayout({
 }) {
   return (
     <html>
-      <body className={inter.className}>
+      <body className={roboto.className}>
         <Header />
         {children}
       </body>

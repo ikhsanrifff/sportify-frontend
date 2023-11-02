@@ -1,10 +1,13 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import Home from './home/page'
+import { Roboto } from 'next/font/google'
+import Header from '@/components/Header'
 
-
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  weight: ['400', '500', '700'],
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+})
 
 export const metadata: Metadata = {
   title: 'Neuron Sportify',
@@ -18,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className={inter.className}>
+      <body className={roboto.className}>
         {children}
         </body>
     </html>

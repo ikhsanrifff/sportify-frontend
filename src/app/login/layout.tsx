@@ -1,20 +1,24 @@
 import React from 'react'
-import { Inter } from 'next/font/google'
 import Header from '@/components/Header'
+import { Roboto } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  weight: ['400', '500', '700'],
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+})
 
 export default function LoginLayout({
-    children,
-  }: {
-    children: React.ReactNode
-  }) {
-    return (
-      <html>
-        <body className={inter.className}>
-          <Header />
-          {children}
-          </body>
-      </html>
-    )
-  }
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html>
+      <body className={roboto.className}>
+        <Header />
+        {children}
+      </body>
+    </html>
+  )
+}
