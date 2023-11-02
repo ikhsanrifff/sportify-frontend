@@ -13,15 +13,15 @@ const Booking = () => {
       contents: [
         {
           name: "Sepakbola",
-          className: "bg-[url('/bola.jpeg')]",
+          className: "bg-[url('/img-sepakbola.svg')]",
         },
         {
           name: "Badminton",
-          className: "bg-[url('/badminton.jpeg')]",
+          className: "bg-[url('/img-badmin.svg')]",
         },
         {
           name: "Basket",
-          className: "bg-[url('/basket.jpeg')]",
+          className: "bg-[url('/img-basket.svg')]",
         },
       ],
     },
@@ -30,16 +30,15 @@ const Booking = () => {
       contents: [
         {
           name: "Sepakbola",
-          className: "bg-[url('/bola.jpeg')]",
+          className: "bg-[url('/img-sepakbola.svg')]",
         },
         {
-
           name: "Badminton",
-          className: "bg-[url('/badminton.jpeg')]",
+          className: "bg-[url('/img-badmin.svg')]",
         },
         {
           name: "Basket",
-          className: "bg-[url('/basket.jpeg')]",
+          className: "bg-[url('/img-basket.svg')]",
         },
       ],
     },
@@ -48,15 +47,15 @@ const Booking = () => {
       contents: [
         {
           name: "Sepakbola",
-          className: "bg-[url('/bola.jpeg')]",
+          className: "bg-[url('/img-sepakbola.svg')]",
         },
         {
           name: "Badminton",
-          className: "bg-[url('/badminton.jpeg')]",
+          className: "bg-[url('/img-badmin.svg')]",
         },
         {
           name: "Basket",
-          className: "bg-[url('/basket.jpeg')]",
+          className: "bg-[url('/img-basket.svg')]",
         },
       ],
     },
@@ -207,460 +206,355 @@ const Booking = () => {
         <div className="flex flex-col max-w-screen-2xl m-auto p-16">
           <p className="text-[25px] font-semibold my-6">Available 12 venue</p>
           <div className="grid grid-cols-4 gap-6 max-w-screen-2xl m-auto">
-            <div className="h-max bg-white w-max border shadow-none hover:shadow-2xl rounded-xl">
-              <div className="w-6/6 h-6/6">
-                <div className='h-52 w-12/12 rounded-t-xl bg-cover bg-[url("/img-js-sport-hall.png")]'>
-                </div>
-                <div className="p-3 font-sans">
-                  <p className="text-lg p-3 text-gray-500">Venue</p>
-                  <p className=" font-bold text-2xl p-2">JS Sports Hall</p>
-                  <p className="text-xl p-2 text-gray-500">Kab.Bandung</p>
-                  <div className="flex gap-1 ml-2 m-auto">
-                    <Image
-                      src={"/Vectorbola-img.svg"}
-                      alt={"bola"}
-                      width={28}
-                      height={0}
-                    />
-                    <p className="p-1 text-xl my-auto text-gray-500">Futsal</p>
-                    <div className="w-[2px] h-[28px] m-2 bg-slate-400"></div>
-                    <div className="flex gap-1">
-                      <Image
-                        src={"/Vectorbultang-img.svg"}
-                        alt={"lapang-bola"}
-                        width={28}
-                        height={0}
-                      />
-                      <p className="p-1 text-xl m-auto text-gray-500">Badminton</p>
-                    </div>
-                  </div>
-                  <div className="m-auto my-2 w-[260px] h-[2px] bg-slate-400"></div>
-                  <div className="p-3">
-                    <p className="font-sans text-lg font-normal">Mulai dari </p>
-                    <p className="font-sans text-2xl font-semibold">
-                      Rp.100.000,-/jam
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+                    <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
+                    <div className='p-6 space-y-4'>
+                        <p>Venue</p>
 
-            <div className="h-max bg-white w-max border shadow-none hover:shadow-2xl rounded-xl">
-              <div className="w-6/6 h-6/6">
-                <div className='h-52 w-12/12 rounded-t-xl bg-cover bg-[url("/img-js-sport-hall.png")]'>
-                </div>
-                <div className="p-3 font-sans">
-                  <p className="text-lg p-3 text-gray-500">Venue</p>
-                  <p className=" font-bold text-2xl p-2">JS Sports Hall</p>
-                  <p className="text-xl p-2 text-gray-500">Kab.Bandung</p>
-                  <div className="flex gap-1 ml-2 m-auto">
-                    <Image
-                      src={"/Vectorbola-img.svg"}
-                      alt={"bola"}
-                      width={28}
-                      height={0}
-                    />
-                    <p className="p-1 text-xl my-auto text-gray-500">Futsal</p>
-                    <div className="w-[2px] h-[28px] m-2 bg-slate-400"></div>
-                    <div className="flex gap-1">
-                      <Image
-                        src={"/Vectorbultang-img.svg"}
-                        alt={"lapang-bola"}
-                        width={28}
-                        height={0}
-                      />
-                      <p className="p-1 text-xl m-auto text-gray-500">Badminton</p>
-                    </div>
-                  </div>
-                  <div className="m-auto my-2 w-[260px] h-[2px] bg-slate-400"></div>
-                  <div className="p-3">
-                    <p className="font-sans text-lg font-normal">Mulai dari </p>
-                    <p className="font-sans text-2xl font-semibold">
-                      Rp.100.000,-/jam
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+                        <div>
+                            <h2>JS Sports Hall</h2>
+                            <p className=' text-gray-400'>Kab. Bandung</p>
+                        </div>
 
-            <div className="h-max bg-white w-max border shadow-none hover:shadow-2xl rounded-xl">
-              <div className="w-6/6 h-6/6">
-                <div className='h-52 w-12/12 rounded-t-xl bg-cover bg-[url("/img-js-sport-hall.png")]'>
-                </div>
-                <div className="p-3 font-sans">
-                  <p className="text-lg p-3 text-gray-500">Venue</p>
-                  <p className=" font-bold text-2xl p-2">JS Sports Hall</p>
-                  <p className="text-xl p-2 text-gray-500">Kab.Bandung</p>
-                  <div className="flex gap-1 ml-2 m-auto">
-                    <Image
-                      src={"/Vectorbola-img.svg"}
-                      alt={"bola"}
-                      width={28}
-                      height={0}
-                    />
-                    <p className="p-1 text-xl my-auto text-gray-500">Futsal</p>
-                    <div className="w-[2px] h-[28px] m-2 bg-slate-400"></div>
-                    <div className="flex gap-1">
-                      <Image
-                        src={"/Vectorbultang-img.svg"}
-                        alt={"lapang-bola"}
-                        width={28}
-                        height={0}
-                      />
-                      <p className="p-1 text-xl m-auto text-gray-500">Badminton</p>
+                        <div className='flex gap-3 items-center'>
+                            <div className='flex items-center gap-2'>
+                                <img src="/ball.svg" alt="ball" width={16} height={16} />
+                                <span>Futsal</span>
+                            </div>
+                            <div className='w-[1px] h-4 bg-slate-600 '></div>
+                            <div className='flex items-center gap-2'>
+                                <img src="/kok.svg" alt="kok" width={16} height={16} />
+                                <span>Badminton</span>
+                            </div>
+                        </div>
+                        <hr className='border border-[#7c7c7c]' />
+                        <div>
+                            <p>Mulai dari</p>
+                            <h2>Rp. 100,000,-/jam</h2>
+                        </div>
                     </div>
-                  </div>
-                  <div className="m-auto my-2 w-[260px] h-[2px] bg-slate-400"></div>
-                  <div className="p-3">
-                    <p className="font-sans text-lg font-normal">Mulai dari </p>
-                    <p className="font-sans text-2xl font-semibold">
-                      Rp.100.000,-/jam
-                    </p>
-                  </div>
                 </div>
-              </div>
-            </div>
 
-            <div className="h-max bg-white w-max border shadow-none hover:shadow-2xl rounded-xl">
-              <div className="w-6/6 h-6/6">
-                <div className='h-52 w-12/12 rounded-t-xl bg-cover bg-[url("/img-js-sport-hall.png")]'>
-                </div>
-                <div className="p-3 font-sans">
-                  <p className="text-lg p-3 text-gray-500">Venue</p>
-                  <p className=" font-bold text-2xl p-2">JS Sports Hall</p>
-                  <p className="text-xl p-2 text-gray-500">Kab.Bandung</p>
-                  <div className="flex gap-1 ml-2 m-auto">
-                    <Image
-                      src={"/Vectorbola-img.svg"}
-                      alt={"bola"}
-                      width={28}
-                      height={0}
-                    />
-                    <p className="p-1 text-xl my-auto text-gray-500">Futsal</p>
-                    <div className="w-[2px] h-[28px] m-2 bg-slate-400"></div>
-                    <div className="flex gap-1">
-                      <Image
-                        src={"/Vectorbultang-img.svg"}
-                        alt={"lapang-bola"}
-                        width={28}
-                        height={0}
-                      />
-                      <p className="p-1 text-xl m-auto text-gray-500">Badminton</p>
-                    </div>
-                  </div>
-                  <div className="m-auto my-2 w-[260px] h-[2px] bg-slate-400"></div>
-                  <div className="p-3">
-                    <p className="font-sans text-lg font-normal">Mulai dari </p>
-                    <p className="font-sans text-2xl font-semibold">
-                      Rp.100.000,-/jam
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+                <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+                    <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
+                    <div className='p-6 space-y-4'>
+                        <p>Venue</p>
 
-            <div className="h-max bg-white w-max border shadow-none hover:shadow-2xl rounded-xl">
-              <div className="w-6/6 h-6/6">
-                <div className='h-52 w-12/12 rounded-t-xl bg-cover bg-[url("/img-js-sport-hall.png")]'>
-                </div>
-                <div className="p-3 font-sans">
-                  <p className="text-lg p-3 text-gray-500">Venue</p>
-                  <p className=" font-bold text-2xl p-2">JS Sports Hall</p>
-                  <p className="text-xl p-2 text-gray-500">Kab.Bandung</p>
-                  <div className="flex gap-1 ml-2 m-auto">
-                    <Image
-                      src={"/Vectorbola-img.svg"}
-                      alt={"bola"}
-                      width={28}
-                      height={0}
-                    />
-                    <p className="p-1 text-xl my-auto text-gray-500">Futsal</p>
-                    <div className="w-[2px] h-[28px] m-2 bg-slate-400"></div>
-                    <div className="flex gap-1">
-                      <Image
-                        src={"/Vectorbultang-img.svg"}
-                        alt={"lapang-bola"}
-                        width={28}
-                        height={0}
-                      />
-                      <p className="p-1 text-xl m-auto text-gray-500">Badminton</p>
-                    </div>
-                  </div>
-                  <div className="m-auto my-2 w-[260px] h-[2px] bg-slate-400"></div>
-                  <div className="p-3">
-                    <p className="font-sans text-lg font-normal">Mulai dari </p>
-                    <p className="font-sans text-2xl font-semibold">
-                      Rp.100.000,-/jam
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+                        <div>
+                            <h2>JS Sports Hall</h2>
+                            <p className=' text-gray-400'>Kab. Bandung</p>
+                        </div>
 
-            <div className="h-max bg-white w-max border shadow-none hover:shadow-2xl rounded-xl">
-              <div className="w-6/6 h-6/6">
-                <div className='h-52 w-12/12 rounded-t-xl bg-cover bg-[url("/img-js-sport-hall.png")]'>
-                </div>
-                <div className="p-3 font-sans">
-                  <p className="text-lg p-3 text-gray-500">Venue</p>
-                  <p className=" font-bold text-2xl p-2">JS Sports Hall</p>
-                  <p className="text-xl p-2 text-gray-500">Kab.Bandung</p>
-                  <div className="flex gap-1 ml-2 m-auto">
-                    <Image
-                      src={"/Vectorbola-img.svg"}
-                      alt={"bola"}
-                      width={28}
-                      height={0}
-                    />
-                    <p className="p-1 text-xl my-auto text-gray-500">Futsal</p>
-                    <div className="w-[2px] h-[28px] m-2 bg-slate-400"></div>
-                    <div className="flex gap-1">
-                      <Image
-                        src={"/Vectorbultang-img.svg"}
-                        alt={"lapang-bola"}
-                        width={28}
-                        height={0}
-                      />
-                      <p className="p-1 text-xl m-auto text-gray-500">Badminton</p>
+                        <div className='flex gap-3 items-center'>
+                            <div className='flex items-center gap-2'>
+                                <img src="/ball.svg" alt="ball" width={16} height={16} />
+                                <span>Futsal</span>
+                            </div>
+                            <div className='w-[1px] h-4 bg-slate-600 '></div>
+                            <div className='flex items-center gap-2'>
+                                <img src="/kok.svg" alt="kok" width={16} height={16} />
+                                <span>Badminton</span>
+                            </div>
+                        </div>
+                        <hr className='border border-[#7c7c7c]' />
+                        <div>
+                            <p>Mulai dari</p>
+                            <h2>Rp. 100,000,-/jam</h2>
+                        </div>
                     </div>
-                  </div>
-                  <div className="m-auto my-2 w-[260px] h-[2px] bg-slate-400"></div>
-                  <div className="p-3">
-                    <p className="font-sans text-lg font-normal">Mulai dari </p>
-                    <p className="font-sans text-2xl font-semibold">
-                      Rp.100.000,-/jam
-                    </p>
-                  </div>
                 </div>
-              </div>
-            </div>
 
-            <div className="h-max bg-white w-max border shadow-none hover:shadow-2xl rounded-xl">
-              <div className="w-6/6 h-6/6">
-                <div className='h-52 w-12/12 rounded-t-xl bg-cover bg-[url("/img-js-sport-hall.png")]'>
-                </div>
-                <div className="p-3 font-sans">
-                  <p className="text-lg p-3 text-gray-500">Venue</p>
-                  <p className=" font-bold text-2xl p-2">JS Sports Hall</p>
-                  <p className="text-xl p-2 text-gray-500">Kab.Bandung</p>
-                  <div className="flex gap-1 ml-2 m-auto">
-                    <Image
-                      src={"/Vectorbola-img.svg"}
-                      alt={"bola"}
-                      width={28}
-                      height={0}
-                    />
-                    <p className="p-1 text-xl my-auto text-gray-500">Futsal</p>
-                    <div className="w-[2px] h-[28px] m-2 bg-slate-400"></div>
-                    <div className="flex gap-1">
-                      <Image
-                        src={"/Vectorbultang-img.svg"}
-                        alt={"lapang-bola"}
-                        width={28}
-                        height={0}
-                      />
-                      <p className="p-1 text-xl m-auto text-gray-500">Badminton</p>
-                    </div>
-                  </div>
-                  <div className="m-auto my-2 w-[260px] h-[2px] bg-slate-400"></div>
-                  <div className="p-3">
-                    <p className="font-sans text-lg font-normal">Mulai dari </p>
-                    <p className="font-sans text-2xl font-semibold">
-                      Rp.100.000,-/jam
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+                <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+                    <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
+                    <div className='p-6 space-y-4'>
+                        <p>Venue</p>
 
-            <div className="h-max bg-white w-max border shadow-none hover:shadow-2xl rounded-xl">
-              <div className="w-6/6 h-6/6">
-                <div className='h-52 w-12/12 rounded-t-xl bg-cover bg-[url("/img-js-sport-hall.png")]'>
-                </div>
-                <div className="p-3 font-sans">
-                  <p className="text-lg p-3 text-gray-500">Venue</p>
-                  <p className=" font-bold text-2xl p-2">JS Sports Hall</p>
-                  <p className="text-xl p-2 text-gray-500">Kab.Bandung</p>
-                  <div className="flex gap-1 ml-2 m-auto">
-                    <Image
-                      src={"/Vectorbola-img.svg"}
-                      alt={"bola"}
-                      width={28}
-                      height={0}
-                    />
-                    <p className="p-1 text-xl my-auto text-gray-500">Futsal</p>
-                    <div className="w-[2px] h-[28px] m-2 bg-slate-400"></div>
-                    <div className="flex gap-1">
-                      <Image
-                        src={"/Vectorbultang-img.svg"}
-                        alt={"lapang-bola"}
-                        width={28}
-                        height={0}
-                      />
-                      <p className="p-1 text-xl m-auto text-gray-500">Badminton</p>
-                    </div>
-                  </div>
-                  <div className="m-auto my-2 w-[260px] h-[2px] bg-slate-400"></div>
-                  <div className="p-3">
-                    <p className="font-sans text-lg font-normal">Mulai dari </p>
-                    <p className="font-sans text-2xl font-semibold">
-                      Rp.100.000,-/jam
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+                        <div>
+                            <h2>JS Sports Hall</h2>
+                            <p className=' text-gray-400'>Kab. Bandung</p>
+                        </div>
 
-            <div className="h-max bg-white w-max border shadow-none hover:shadow-2xl rounded-xl">
-              <div className="w-6/6 h-6/6">
-                <div className='h-52 w-12/12 rounded-t-xl bg-cover bg-[url("/img-js-sport-hall.png")]'>
-                </div>
-                <div className="p-3 font-sans">
-                  <p className="text-lg p-3 text-gray-500">Venue</p>
-                  <p className=" font-bold text-2xl p-2">JS Sports Hall</p>
-                  <p className="text-xl p-2 text-gray-500">Kab.Bandung</p>
-                  <div className="flex gap-1 ml-2 m-auto">
-                    <Image
-                      src={"/Vectorbola-img.svg"}
-                      alt={"bola"}
-                      width={28}
-                      height={0}
-                    />
-                    <p className="p-1 text-xl my-auto text-gray-500">Futsal</p>
-                    <div className="w-[2px] h-[28px] m-2 bg-slate-400"></div>
-                    <div className="flex gap-1">
-                      <Image
-                        src={"/Vectorbultang-img.svg"}
-                        alt={"lapang-bola"}
-                        width={28}
-                        height={0}
-                      />
-                      <p className="p-1 text-xl m-auto text-gray-500">Badminton</p>
+                        <div className='flex gap-3 items-center'>
+                            <div className='flex items-center gap-2'>
+                                <img src="/ball.svg" alt="ball" width={16} height={16} />
+                                <span>Futsal</span>
+                            </div>
+                            <div className='w-[1px] h-4 bg-slate-600 '></div>
+                            <div className='flex items-center gap-2'>
+                                <img src="/kok.svg" alt="kok" width={16} height={16} />
+                                <span>Badminton</span>
+                            </div>
+                        </div>
+                        <hr className='border border-[#7c7c7c]' />
+                        <div>
+                            <p>Mulai dari</p>
+                            <h2>Rp. 100,000,-/jam</h2>
+                        </div>
                     </div>
-                  </div>
-                  <div className="m-auto my-2 w-[260px] h-[2px] bg-slate-400"></div>
-                  <div className="p-3">
-                    <p className="font-sans text-lg font-normal">Mulai dari </p>
-                    <p className="font-sans text-2xl font-semibold">
-                      Rp.100.000,-/jam
-                    </p>
-                  </div>
                 </div>
-              </div>
-            </div>
 
-            <div className="h-max bg-white w-max border shadow-none hover:shadow-2xl rounded-xl">
-              <div className="w-6/6 h-6/6">
-                <div className='h-52 w-12/12 rounded-t-xl bg-cover bg-[url("/img-js-sport-hall.png")]'>
-                </div>
-                <div className="p-3 font-sans">
-                  <p className="text-lg p-3 text-gray-500">Venue</p>
-                  <p className=" font-bold text-2xl p-2">JS Sports Hall</p>
-                  <p className="text-xl p-2 text-gray-500">Kab.Bandung</p>
-                  <div className="flex gap-1 ml-2 m-auto">
-                    <Image
-                      src={"/Vectorbola-img.svg"}
-                      alt={"bola"}
-                      width={28}
-                      height={0}
-                    />
-                    <p className="p-1 text-xl my-auto text-gray-500">Futsal</p>
-                    <div className="w-[2px] h-[28px] m-2 bg-slate-400"></div>
-                    <div className="flex gap-1">
-                      <Image
-                        src={"/Vectorbultang-img.svg"}
-                        alt={"lapang-bola"}
-                        width={28}
-                        height={0}
-                      />
-                      <p className="p-1 text-xl m-auto text-gray-500">Badminton</p>
-                    </div>
-                  </div>
-                  <div className="m-auto my-2 w-[260px] h-[2px] bg-slate-400"></div>
-                  <div className="p-3">
-                    <p className="font-sans text-lg font-normal">Mulai dari </p>
-                    <p className="font-sans text-2xl font-semibold">
-                      Rp.100.000,-/jam
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="h-max bg-white w-max border shadow-none hover:shadow-2xl rounded-xl">
-              <div className="w-6/6 h-6/6">
-                <div className='h-52 w-12/12 rounded-t-xl bg-cover bg-[url("/img-js-sport-hall.png")]'>
-                </div>
-                <div className="p-3 font-sans">
-                  <p className="text-lg p-3 text-gray-500">Venue</p>
-                  <p className=" font-bold text-2xl p-2">JS Sports Hall</p>
-                  <p className="text-xl p-2 text-gray-500">Kab.Bandung</p>
-                  <div className="flex gap-1 ml-2 m-auto">
-                    <Image
-                      src={"/Vectorbola-img.svg"}
-                      alt={"bola"}
-                      width={28}
-                      height={0}
-                    />
-                    <p className="p-1 text-xl my-auto text-gray-500">Futsal</p>
-                    <div className="w-[2px] h-[28px] m-2 bg-slate-400"></div>
-                    <div className="flex gap-1">
-                      <Image
-                        src={"/Vectorbultang-img.svg"}
-                        alt={"lapang-bola"}
-                        width={28}
-                        height={0}
-                      />
-                      <p className="p-1 text-xl m-auto text-gray-500">Badminton</p>
-                    </div>
-                  </div>
-                  <div className="m-auto my-2 w-[260px] h-[2px] bg-slate-400"></div>
-                  <div className="p-3">
-                    <p className="font-sans text-lg font-normal">Mulai dari </p>
-                    <p className="font-sans text-2xl font-semibold">
-                      Rp.100.000,-/jam
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+                <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+                    <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
+                    <div className='p-6 space-y-4'>
+                        <p>Venue</p>
 
-            <div className="h-max bg-white w-max border shadow-none hover:shadow-2xl rounded-xl">
-              <div className="w-6/6 h-6/6">
-                <div className='h-52 w-12/12 rounded-t-xl bg-cover bg-[url("/img-js-sport-hall.png")]'>
-                </div>
-                <div className="p-3 font-sans">
-                  <p className="text-lg p-3 text-gray-500">Venue</p>
-                  <p className=" font-bold text-2xl p-2">JS Sports Hall</p>
-                  <p className="text-xl p-2 text-gray-500">Kab.Bandung</p>
-                  <div className="flex gap-1 ml-2 m-auto">
-                    <Image
-                      src={"/Vectorbola-img.svg"}
-                      alt={"bola"}
-                      width={28}
-                      height={0}
-                    />
-                    <p className="p-1 text-xl my-auto text-gray-500">Futsal</p>
-                    <div className="w-[2px] h-[28px] m-2 bg-slate-400"></div>
-                    <div className="flex gap-1">
-                      <Image
-                        src={"/Vectorbultang-img.svg"}
-                        alt={"lapang-bola"}
-                        width={28}
-                        height={0}
-                      />
-                      <p className="p-1 text-xl m-auto text-gray-500">Badminton</p>
+                        <div>
+                            <h2>JS Sports Hall</h2>
+                            <p className=' text-gray-400'>Kab. Bandung</p>
+                        </div>
+
+                        <div className='flex gap-3 items-center'>
+                            <div className='flex items-center gap-2'>
+                                <img src="/ball.svg" alt="ball" width={16} height={16} />
+                                <span>Futsal</span>
+                            </div>
+                            <div className='w-[1px] h-4 bg-slate-600 '></div>
+                            <div className='flex items-center gap-2'>
+                                <img src="/kok.svg" alt="kok" width={16} height={16} />
+                                <span>Badminton</span>
+                            </div>
+                        </div>
+                        <hr className='border border-[#7c7c7c]' />
+                        <div>
+                            <p>Mulai dari</p>
+                            <h2>Rp. 100,000,-/jam</h2>
+                        </div>
                     </div>
-                  </div>
-                  <div className="m-auto my-2 w-[260px] h-[2px] bg-slate-400"></div>
-                  <div className="p-3">
-                    <p className="font-sans text-lg font-normal">Mulai dari </p>
-                    <p className="font-sans text-2xl font-semibold">
-                      Rp.100.000,-/jam
-                    </p>
-                  </div>
                 </div>
-              </div>
-            </div>
+
+                <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+                    <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
+                    <div className='p-6 space-y-4'>
+                        <p>Venue</p>
+
+                        <div>
+                            <h2>JS Sports Hall</h2>
+                            <p className=' text-gray-400'>Kab. Bandung</p>
+                        </div>
+
+                        <div className='flex gap-3 items-center'>
+                            <div className='flex items-center gap-2'>
+                                <img src="/ball.svg" alt="ball" width={16} height={16} />
+                                <span>Futsal</span>
+                            </div>
+                            <div className='w-[1px] h-4 bg-slate-600 '></div>
+                            <div className='flex items-center gap-2'>
+                                <img src="/kok.svg" alt="kok" width={16} height={16} />
+                                <span>Badminton</span>
+                            </div>
+                        </div>
+                        <hr className='border border-[#7c7c7c]' />
+                        <div>
+                            <p>Mulai dari</p>
+                            <h2>Rp. 100,000,-/jam</h2>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+                    <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
+                    <div className='p-6 space-y-4'>
+                        <p>Venue</p>
+
+                        <div>
+                            <h2>JS Sports Hall</h2>
+                            <p className=' text-gray-400'>Kab. Bandung</p>
+                        </div>
+
+                        <div className='flex gap-3 items-center'>
+                            <div className='flex items-center gap-2'>
+                                <img src="/ball.svg" alt="ball" width={16} height={16} />
+                                <span>Futsal</span>
+                            </div>
+                            <div className='w-[1px] h-4 bg-slate-600 '></div>
+                            <div className='flex items-center gap-2'>
+                                <img src="/kok.svg" alt="kok" width={16} height={16} />
+                                <span>Badminton</span>
+                            </div>
+                        </div>
+                        <hr className='border border-[#7c7c7c]' />
+                        <div>
+                            <p>Mulai dari</p>
+                            <h2>Rp. 100,000,-/jam</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+                    <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
+                    <div className='p-6 space-y-4'>
+                        <p>Venue</p>
+
+                        <div>
+                            <h2>JS Sports Hall</h2>
+                            <p className=' text-gray-400'>Kab. Bandung</p>
+                        </div>
+
+                        <div className='flex gap-3 items-center'>
+                            <div className='flex items-center gap-2'>
+                                <img src="/ball.svg" alt="ball" width={16} height={16} />
+                                <span>Futsal</span>
+                            </div>
+                            <div className='w-[1px] h-4 bg-slate-600 '></div>
+                            <div className='flex items-center gap-2'>
+                                <img src="/kok.svg" alt="kok" width={16} height={16} />
+                                <span>Badminton</span>
+                            </div>
+                        </div>
+                        <hr className='border border-[#7c7c7c]' />
+                        <div>
+                            <p>Mulai dari</p>
+                            <h2>Rp. 100,000,-/jam</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+                    <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
+                    <div className='p-6 space-y-4'>
+                        <p>Venue</p>
+
+                        <div>
+                            <h2>JS Sports Hall</h2>
+                            <p className=' text-gray-400'>Kab. Bandung</p>
+                        </div>
+
+                        <div className='flex gap-3 items-center'>
+                            <div className='flex items-center gap-2'>
+                                <img src="/ball.svg" alt="ball" width={16} height={16} />
+                                <span>Futsal</span>
+                            </div>
+                            <div className='w-[1px] h-4 bg-slate-600 '></div>
+                            <div className='flex items-center gap-2'>
+                                <img src="/kok.svg" alt="kok" width={16} height={16} />
+                                <span>Badminton</span>
+                            </div>
+                        </div>
+                        <hr className='border border-[#7c7c7c]' />
+                        <div>
+                            <p>Mulai dari</p>
+                            <h2>Rp. 100,000,-/jam</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+                    <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
+                    <div className='p-6 space-y-4'>
+                        <p>Venue</p>
+
+                        <div>
+                            <h2>JS Sports Hall</h2>
+                            <p className=' text-gray-400'>Kab. Bandung</p>
+                        </div>
+
+                        <div className='flex gap-3 items-center'>
+                            <div className='flex items-center gap-2'>
+                                <img src="/ball.svg" alt="ball" width={16} height={16} />
+                                <span>Futsal</span>
+                            </div>
+                            <div className='w-[1px] h-4 bg-slate-600 '></div>
+                            <div className='flex items-center gap-2'>
+                                <img src="/kok.svg" alt="kok" width={16} height={16} />
+                                <span>Badminton</span>
+                            </div>
+                        </div>
+                        <hr className='border border-[#7c7c7c]' />
+                        <div>
+                            <p>Mulai dari</p>
+                            <h2>Rp. 100,000,-/jam</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+                    <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
+                    <div className='p-6 space-y-4'>
+                        <p>Venue</p>
+
+                        <div>
+                            <h2>JS Sports Hall</h2>
+                            <p className=' text-gray-400'>Kab. Bandung</p>
+                        </div>
+
+                        <div className='flex gap-3 items-center'>
+                            <div className='flex items-center gap-2'>
+                                <img src="/ball.svg" alt="ball" width={16} height={16} />
+                                <span>Futsal</span>
+                            </div>
+                            <div className='w-[1px] h-4 bg-slate-600 '></div>
+                            <div className='flex items-center gap-2'>
+                                <img src="/kok.svg" alt="kok" width={16} height={16} />
+                                <span>Badminton</span>
+                            </div>
+                        </div>
+                        <hr className='border border-[#7c7c7c]' />
+                        <div>
+                            <p>Mulai dari</p>
+                            <h2>Rp. 100,000,-/jam</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+                    <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
+                    <div className='p-6 space-y-4'>
+                        <p>Venue</p>
+
+                        <div>
+                            <h2>JS Sports Hall</h2>
+                            <p className=' text-gray-400'>Kab. Bandung</p>
+                        </div>
+
+                        <div className='flex gap-3 items-center'>
+                            <div className='flex items-center gap-2'>
+                                <img src="/ball.svg" alt="ball" width={16} height={16} />
+                                <span>Futsal</span>
+                            </div>
+                            <div className='w-[1px] h-4 bg-slate-600 '></div>
+                            <div className='flex items-center gap-2'>
+                                <img src="/kok.svg" alt="kok" width={16} height={16} />
+                                <span>Badminton</span>
+                            </div>
+                        </div>
+                        <hr className='border border-[#7c7c7c]' />
+                        <div>
+                            <p>Mulai dari</p>
+                            <h2>Rp. 100,000,-/jam</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+                    <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
+                    <div className='p-6 space-y-4'>
+                        <p>Venue</p>
+
+                        <div>
+                            <h2>JS Sports Hall</h2>
+                            <p className=' text-gray-400'>Kab. Bandung</p>
+                        </div>
+
+                        <div className='flex gap-3 items-center'>
+                            <div className='flex items-center gap-2'>
+                                <img src="/ball.svg" alt="ball" width={16} height={16} />
+                                <span>Futsal</span>
+                            </div>
+                            <div className='w-[1px] h-4 bg-slate-600 '></div>
+                            <div className='flex items-center gap-2'>
+                                <img src="/kok.svg" alt="kok" width={16} height={16} />
+                                <span>Badminton</span>
+                            </div>
+                        </div>
+                        <hr className='border border-[#7c7c7c]' />
+                        <div>
+                            <p>Mulai dari</p>
+                            <h2>Rp. 100,000,-/jam</h2>
+                        </div>
+                    </div>
+                </div>
+
+
           </div>
           <div className='flex my-6 justify-between'>
             <p className='text-xl font-semibold'>Showing 1 to 100 of 180 Entries</p>
