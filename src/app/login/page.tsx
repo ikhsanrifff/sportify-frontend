@@ -7,8 +7,8 @@ const Login = () => {
       <div className='flex flex-col bg-white max-w-screen-2xl mx-auto h-screen p-4'>
         <p className='font-medium text-center text-[35px] xl:text-[45px]'>Login Neuron Sportify</p>
         <div className='mt-6'>
-          <p className='text-center text-[22px]'>Welcome back.</p>
-          <div className='mt-6 w-6/6 p-4'>
+          <p className='text-center font-normal text-[22px]'>Welcome back.</p>
+          <div className='mt-0 xl:mt-6 w-6/6 p-4'>
             <div className='grid'>
               <input className='h-2 w-6/6 bg-white border-2 border-gray-400 p-7 rounded-lg text-[20px] my-6' type='email' placeholder='Email'></input>
               <input className='h-2 bg-white border-2 border-gray-400 p-7 rounded-lg text-[20px]' type='Password' placeholder='Password'></input>

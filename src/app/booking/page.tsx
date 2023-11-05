@@ -79,8 +79,8 @@ const Booking = () => {
       <div className="mx-auto max-w-screen-2xl">
         {/* bagian teratas */}
         <div className="w-full h-4/6">
-          <div className='w-full absolute bg-cover h-[299px] brightness-75 bg-[url("/bg-booking.svg")]'></div>
-          <p className="p-24 text-3xl xl:text-[40px] text-white font-bold text-center backdrop-brightness-100">
+          <div className='w-full absolute bg-cover h-[393px] xl:h-[299px] brightness-75 bg-[url("/bg-booking.svg")]'></div>
+          <p className="p-24 text-[24px] xl:text-[40px] text-white font-bold text-center backdrop-brightness-100">
             BOOKING LAPANGAN ONLINE
           </p><Link className=" flex -m-14 w-auto" href={"/venue"}>
             <button className="flex bg-[#E8F703] backdrop-brightness-100 m-auto hover:bg-black text-black hover:text-[#E8F703] p-4 gap-4 rounded-md text-[19px] font-semibold">
@@ -179,17 +179,17 @@ const Booking = () => {
 
 
         <div className='flex flex-col p-10 max-w-screen-2xl bg-[#1B7996]'>
-          <div className="flex-row gap-6 mx-16 max-w-screen-2x">
-            <h3 className="text-white p-6 text-4xl font-semibold">CARI VENUE</h3>
-            <div className="flex gap-6 max-w-screen-2xl">
+          <div className="flex-row gap-6 mx-10 max-w-screen-2x">
+            <h3 className="w-full text-white p-2 xl:p-6 text-[30px] font-semibold">CARI VENUE</h3>
+            <div className="flex flex-col xl:flex-row gap-6 max-w-screen-2xl">
               <div className="gap-5 my-auto items-center">
-                <div className="flex p-6 gap-4 items-center">
+                <div className="flex flex-col xl:flex-row p-6 gap-4 items-center">
                   <input className='rounded-lg p-4 w-max h-max text-lg' placeholder='Nama Venue'></input>
                   <input className='rounded-lg p-4 w-max h-max text-lg' placeholder='Pilih Kota'></input>
                   <input className='rounded-lg p-4 w-max h-max text-lg' placeholder='Pilih Cabor'></input>
                 </div>
               </div>
-              <div className=" flex gap-3 items-center">
+              <div className="flex flex-col xl:flex-row gap-3 items-center">
                 <button
                   className="bg-white p-2 rounded-xl font-extrabold text-2xl hover:bg-black hover:text-white"
                   name="searchbar"
@@ -206,27 +206,27 @@ const Booking = () => {
 
         <div className="flex flex-col max-w-screen-2xl m-auto p-16">
           <p className="text-[25px] font-semibold my-6">Available 12 venue</p>
-          <div className="grid grid-cols-4 gap-6 max-w-screen-2xl m-auto">
+          <div className="grid grid-cols-1 xl:grid-cols-4 gap-6 max-w-screen-2xl m-auto">
 
-            <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+          <div className=" w-[18.5rem] flex-none shadow-md hover:shadow-xl rounded-b-lg">
               <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
               <div className='p-6 space-y-4'>
-                <p>Venue</p>
+                <p className=' text-gray-500'>Venue</p>
 
                 <div>
-                  <h2>JS Sports Hall</h2>
+                  <p className='text-[20px] font-medium'>JS Sports Hall</p>
                   <p className=' text-gray-400'>Kab. Bandung</p>
                 </div>
 
                 <div className='flex gap-3 items-center'>
                   <div className='flex items-center gap-2'>
                     <img src="/ball.svg" alt="ball" width={16} height={16} />
-                    <span>Futsal</span>
+                    <span className=' text-gray-500'>Futsal</span>
                   </div>
                   <div className='w-[1px] h-4 bg-slate-600 '></div>
                   <div className='flex items-center gap-2'>
                     <img src="/kok.svg" alt="kok" width={16} height={16} />
-                    <span>Badminton</span>
+                    <span className=' text-gray-500'>Badminton</span>
                   </div>
                 </div>
                 <hr className='border border-[#7c7c7c]' />
@@ -237,25 +237,25 @@ const Booking = () => {
               </div>
             </div>
 
-            <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+            <div className=" w-[18.5rem] flex-none shadow-md hover:shadow-xl rounded-b-lg">
               <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
               <div className='p-6 space-y-4'>
-                <p>Venue</p>
+                <p className=' text-gray-500'>Venue</p>
 
                 <div>
-                  <h2>JS Sports Hall</h2>
+                  <p className='text-[20px] font-medium'>JS Sports Hall</p>
                   <p className=' text-gray-400'>Kab. Bandung</p>
                 </div>
 
                 <div className='flex gap-3 items-center'>
                   <div className='flex items-center gap-2'>
                     <img src="/ball.svg" alt="ball" width={16} height={16} />
-                    <span>Futsal</span>
+                    <span className=' text-gray-500'>Futsal</span>
                   </div>
                   <div className='w-[1px] h-4 bg-slate-600 '></div>
                   <div className='flex items-center gap-2'>
                     <img src="/kok.svg" alt="kok" width={16} height={16} />
-                    <span>Badminton</span>
+                    <span className=' text-gray-500'>Badminton</span>
                   </div>
                 </div>
                 <hr className='border border-[#7c7c7c]' />
@@ -266,25 +266,25 @@ const Booking = () => {
               </div>
             </div>
 
-            <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+            <div className=" w-[18.5rem] flex-none shadow-md hover:shadow-xl rounded-b-lg">
               <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
               <div className='p-6 space-y-4'>
-                <p>Venue</p>
+                <p className=' text-gray-500'>Venue</p>
 
                 <div>
-                  <h2>JS Sports Hall</h2>
+                  <p className='text-[20px] font-medium'>JS Sports Hall</p>
                   <p className=' text-gray-400'>Kab. Bandung</p>
                 </div>
 
                 <div className='flex gap-3 items-center'>
                   <div className='flex items-center gap-2'>
                     <img src="/ball.svg" alt="ball" width={16} height={16} />
-                    <span>Futsal</span>
+                    <span className=' text-gray-500'>Futsal</span>
                   </div>
                   <div className='w-[1px] h-4 bg-slate-600 '></div>
                   <div className='flex items-center gap-2'>
                     <img src="/kok.svg" alt="kok" width={16} height={16} />
-                    <span>Badminton</span>
+                    <span className=' text-gray-500'>Badminton</span>
                   </div>
                 </div>
                 <hr className='border border-[#7c7c7c]' />
@@ -295,25 +295,25 @@ const Booking = () => {
               </div>
             </div>
 
-            <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+            <div className=" w-[18.5rem] flex-none shadow-md hover:shadow-xl rounded-b-lg">
               <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
               <div className='p-6 space-y-4'>
-                <p>Venue</p>
+                <p className=' text-gray-500'>Venue</p>
 
                 <div>
-                  <h2>JS Sports Hall</h2>
+                  <p className='text-[20px] font-medium'>JS Sports Hall</p>
                   <p className=' text-gray-400'>Kab. Bandung</p>
                 </div>
 
                 <div className='flex gap-3 items-center'>
                   <div className='flex items-center gap-2'>
                     <img src="/ball.svg" alt="ball" width={16} height={16} />
-                    <span>Futsal</span>
+                    <span className=' text-gray-500'>Futsal</span>
                   </div>
                   <div className='w-[1px] h-4 bg-slate-600 '></div>
                   <div className='flex items-center gap-2'>
                     <img src="/kok.svg" alt="kok" width={16} height={16} />
-                    <span>Badminton</span>
+                    <span className=' text-gray-500'>Badminton</span>
                   </div>
                 </div>
                 <hr className='border border-[#7c7c7c]' />
@@ -324,25 +324,25 @@ const Booking = () => {
               </div>
             </div>
 
-            <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+            <div className=" w-[18.5rem] flex-none shadow-md hover:shadow-xl rounded-b-lg">
               <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
               <div className='p-6 space-y-4'>
-                <p>Venue</p>
+                <p className=' text-gray-500'>Venue</p>
 
                 <div>
-                  <h2>JS Sports Hall</h2>
+                  <p className='text-[20px] font-medium'>JS Sports Hall</p>
                   <p className=' text-gray-400'>Kab. Bandung</p>
                 </div>
 
                 <div className='flex gap-3 items-center'>
                   <div className='flex items-center gap-2'>
                     <img src="/ball.svg" alt="ball" width={16} height={16} />
-                    <span>Futsal</span>
+                    <span className=' text-gray-500'>Futsal</span>
                   </div>
                   <div className='w-[1px] h-4 bg-slate-600 '></div>
                   <div className='flex items-center gap-2'>
                     <img src="/kok.svg" alt="kok" width={16} height={16} />
-                    <span>Badminton</span>
+                    <span className=' text-gray-500'>Badminton</span>
                   </div>
                 </div>
                 <hr className='border border-[#7c7c7c]' />
@@ -353,25 +353,25 @@ const Booking = () => {
               </div>
             </div>
 
-            <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+            <div className=" w-[18.5rem] flex-none shadow-md hover:shadow-xl rounded-b-lg">
               <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
               <div className='p-6 space-y-4'>
-                <p>Venue</p>
+                <p className=' text-gray-500'>Venue</p>
 
                 <div>
-                  <h2>JS Sports Hall</h2>
+                  <p className='text-[20px] font-medium'>JS Sports Hall</p>
                   <p className=' text-gray-400'>Kab. Bandung</p>
                 </div>
 
                 <div className='flex gap-3 items-center'>
                   <div className='flex items-center gap-2'>
                     <img src="/ball.svg" alt="ball" width={16} height={16} />
-                    <span>Futsal</span>
+                    <span className=' text-gray-500'>Futsal</span>
                   </div>
                   <div className='w-[1px] h-4 bg-slate-600 '></div>
                   <div className='flex items-center gap-2'>
                     <img src="/kok.svg" alt="kok" width={16} height={16} />
-                    <span>Badminton</span>
+                    <span className=' text-gray-500'>Badminton</span>
                   </div>
                 </div>
                 <hr className='border border-[#7c7c7c]' />
@@ -382,25 +382,25 @@ const Booking = () => {
               </div>
             </div>
 
-            <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+            <div className=" w-[18.5rem] flex-none shadow-md hover:shadow-xl rounded-b-lg">
               <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
               <div className='p-6 space-y-4'>
-                <p>Venue</p>
+                <p className=' text-gray-500'>Venue</p>
 
                 <div>
-                  <h2>JS Sports Hall</h2>
+                  <p className='text-[20px] font-medium'>JS Sports Hall</p>
                   <p className=' text-gray-400'>Kab. Bandung</p>
                 </div>
 
                 <div className='flex gap-3 items-center'>
                   <div className='flex items-center gap-2'>
                     <img src="/ball.svg" alt="ball" width={16} height={16} />
-                    <span>Futsal</span>
+                    <span className=' text-gray-500'>Futsal</span>
                   </div>
                   <div className='w-[1px] h-4 bg-slate-600 '></div>
                   <div className='flex items-center gap-2'>
                     <img src="/kok.svg" alt="kok" width={16} height={16} />
-                    <span>Badminton</span>
+                    <span className=' text-gray-500'>Badminton</span>
                   </div>
                 </div>
                 <hr className='border border-[#7c7c7c]' />
@@ -411,25 +411,25 @@ const Booking = () => {
               </div>
             </div>
 
-            <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+            <div className=" w-[18.5rem] flex-none shadow-md hover:shadow-xl rounded-b-lg">
               <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
               <div className='p-6 space-y-4'>
-                <p>Venue</p>
+                <p className=' text-gray-500'>Venue</p>
 
                 <div>
-                  <h2>JS Sports Hall</h2>
+                  <p className='text-[20px] font-medium'>JS Sports Hall</p>
                   <p className=' text-gray-400'>Kab. Bandung</p>
                 </div>
 
                 <div className='flex gap-3 items-center'>
                   <div className='flex items-center gap-2'>
                     <img src="/ball.svg" alt="ball" width={16} height={16} />
-                    <span>Futsal</span>
+                    <span className=' text-gray-500'>Futsal</span>
                   </div>
                   <div className='w-[1px] h-4 bg-slate-600 '></div>
                   <div className='flex items-center gap-2'>
                     <img src="/kok.svg" alt="kok" width={16} height={16} />
-                    <span>Badminton</span>
+                    <span className=' text-gray-500'>Badminton</span>
                   </div>
                 </div>
                 <hr className='border border-[#7c7c7c]' />
@@ -440,25 +440,25 @@ const Booking = () => {
               </div>
             </div>
 
-            <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+            <div className=" w-[18.5rem] flex-none shadow-md hover:shadow-xl rounded-b-lg">
               <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
               <div className='p-6 space-y-4'>
-                <p>Venue</p>
+                <p className=' text-gray-500'>Venue</p>
 
                 <div>
-                  <h2>JS Sports Hall</h2>
+                  <p className='text-[20px] font-medium'>JS Sports Hall</p>
                   <p className=' text-gray-400'>Kab. Bandung</p>
                 </div>
 
                 <div className='flex gap-3 items-center'>
                   <div className='flex items-center gap-2'>
                     <img src="/ball.svg" alt="ball" width={16} height={16} />
-                    <span>Futsal</span>
+                    <span className=' text-gray-500'>Futsal</span>
                   </div>
                   <div className='w-[1px] h-4 bg-slate-600 '></div>
                   <div className='flex items-center gap-2'>
                     <img src="/kok.svg" alt="kok" width={16} height={16} />
-                    <span>Badminton</span>
+                    <span className=' text-gray-500'>Badminton</span>
                   </div>
                 </div>
                 <hr className='border border-[#7c7c7c]' />
@@ -469,25 +469,25 @@ const Booking = () => {
               </div>
             </div>
 
-            <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+            <div className=" w-[18.5rem] flex-none shadow-md hover:shadow-xl rounded-b-lg">
               <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
               <div className='p-6 space-y-4'>
-                <p>Venue</p>
+                <p className=' text-gray-500'>Venue</p>
 
                 <div>
-                  <h2>JS Sports Hall</h2>
+                  <p className='text-[20px] font-medium'>JS Sports Hall</p>
                   <p className=' text-gray-400'>Kab. Bandung</p>
                 </div>
 
                 <div className='flex gap-3 items-center'>
                   <div className='flex items-center gap-2'>
                     <img src="/ball.svg" alt="ball" width={16} height={16} />
-                    <span>Futsal</span>
+                    <span className=' text-gray-500'>Futsal</span>
                   </div>
                   <div className='w-[1px] h-4 bg-slate-600 '></div>
                   <div className='flex items-center gap-2'>
                     <img src="/kok.svg" alt="kok" width={16} height={16} />
-                    <span>Badminton</span>
+                    <span className=' text-gray-500'>Badminton</span>
                   </div>
                 </div>
                 <hr className='border border-[#7c7c7c]' />
@@ -498,25 +498,25 @@ const Booking = () => {
               </div>
             </div>
 
-            <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+            <div className=" w-[18.5rem] flex-none shadow-md hover:shadow-xl rounded-b-lg">
               <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
               <div className='p-6 space-y-4'>
-                <p>Venue</p>
+                <p className=' text-gray-500'>Venue</p>
 
                 <div>
-                  <h2>JS Sports Hall</h2>
+                  <p className='text-[20px] font-medium'>JS Sports Hall</p>
                   <p className=' text-gray-400'>Kab. Bandung</p>
                 </div>
 
                 <div className='flex gap-3 items-center'>
                   <div className='flex items-center gap-2'>
                     <img src="/ball.svg" alt="ball" width={16} height={16} />
-                    <span>Futsal</span>
+                    <span className=' text-gray-500'>Futsal</span>
                   </div>
                   <div className='w-[1px] h-4 bg-slate-600 '></div>
                   <div className='flex items-center gap-2'>
                     <img src="/kok.svg" alt="kok" width={16} height={16} />
-                    <span>Badminton</span>
+                    <span className=' text-gray-500'>Badminton</span>
                   </div>
                 </div>
                 <hr className='border border-[#7c7c7c]' />
@@ -527,25 +527,25 @@ const Booking = () => {
               </div>
             </div>
 
-            <div className=" w-[18.5rem] flex-none shadow-lg hover:shadow-xl rounded-b-lg">
+            <div className=" w-[18.5rem] flex-none shadow-md hover:shadow-xl rounded-b-lg">
               <img src='/Lapang6.jpg' alt='Lapang4' width={500} height={500} className='h-56 rounded-t-lg ' />
               <div className='p-6 space-y-4'>
-                <p>Venue</p>
+                <p className=' text-gray-500'>Venue</p>
 
                 <div>
-                  <h2>JS Sports Hall</h2>
+                  <p className='text-[20px] font-medium'>JS Sports Hall</p>
                   <p className=' text-gray-400'>Kab. Bandung</p>
                 </div>
 
                 <div className='flex gap-3 items-center'>
                   <div className='flex items-center gap-2'>
                     <img src="/ball.svg" alt="ball" width={16} height={16} />
-                    <span>Futsal</span>
+                    <span className=' text-gray-500'>Futsal</span>
                   </div>
                   <div className='w-[1px] h-4 bg-slate-600 '></div>
                   <div className='flex items-center gap-2'>
                     <img src="/kok.svg" alt="kok" width={16} height={16} />
-                    <span>Badminton</span>
+                    <span className=' text-gray-500'>Badminton</span>
                   </div>
                 </div>
                 <hr className='border border-[#7c7c7c]' />
