@@ -16,6 +16,7 @@ const Venue = () => {
           <Image className=' mx-2' src={'/Vectorbultang-img.svg'} alt={'bultang'} width={20} height={0} />
           <p>Badminton</p>
         </div>
+
         <div className='flex p-6'>
           <div className='flex'>
             <Image src={'/lapangan-futsal.png'} alt={'bola'} width={200} height={100} />

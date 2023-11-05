@@ -5,7 +5,7 @@ const Register = () => {
   return (
     <>
       <div className='flex max-w-screen-2xl mx-auto h-screen bg-white'>
-          <div className='max-w-screen-2xl w-1/2  brightness-50 bg-cover bg-no-repeat bg-[url("/bg-register.svg")]'>
+          <div className='max-w-screen-2xl w-1/2 brightness-50 bg-none bg-cover bg-no-repeat '>
         </div>
         <div className='flex flex-col w-3/6 bg-white p-8 rounded-lg'>
           <p className='font-medium text-xl xl:text-[45px] m-6 text-center'>Join Neuron Sportify</p>
