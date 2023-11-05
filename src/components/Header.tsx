@@ -41,7 +41,7 @@ const Header = () => {
                                 <li className='text-center'><Link className='m-4 font-semibold' href={'/booking'}>Sewa Lapangan</Link></li>
                                 </div>
                                 <Link href={'/login'} className='w-full text-center p-4 border border-[#1B7996] bg-white hover:bg-[#1B7996] rounded-lg hover:text-white text-[#1B7996]'><li className='w-full h-max text-[25px]' >Masuk</li></Link>
-                                <Link href={'/register'} className='w-full text-center p-4 bg-[#1B7996] hover:bg-slate-300 rounded-lg'><li className='w-full h-max  text-[25px] text-white' >Daftar</li></Link>
+                                <Link href={'/register'} className='w-full text-center p-4 bg-[#1B7996] hover:bg-slate-300 rounded-lg'><li className='w-full h-max text-[25px] text-white' >Daftar</li></Link>
                             </ul>
                         </div>
                     </div>
@@ -60,8 +60,8 @@ const Header = () => {
                         <ul className='flex text-lg p-2 gap-14'>
                             <li className='m-auto invisible xl:visible'><Link href={'/'}><div className='w-[33.47px] h-[28.5px] bg-no-repeat bg-cover bg-[url("/keranjanghd.svg")]'></div></Link></li>
                             <div className='w-[1px] h-[36px] bg-slate-400 my-auto invisible xl:visible'></div>
-                            <Link className='text-[20px] font-normal m-auto' href={'/login'}>Masuk</Link>
-                            <Link className='text-[20px] h-[44px] w-[106px] font-normal bg-[#1B7996] p-3 hover:bg-slate-300 rounded-[5px] text-white text-center my-auto' href={'/register'}>Daftar</Link>
+                            <Link className='text-[22px] font-normal m-auto' href={'/login'}>Masuk</Link>
+                            <Link className='text-[22px] h-[44px] w-[106px] font-normal bg-[#1B7996] p-2 hover:bg-slate-300 rounded-[5px] text-white text-center m-auto' href={'/register'}>Daftar</Link>
                         </ul>
                     </div>
                 </div>
