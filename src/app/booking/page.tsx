@@ -179,14 +179,14 @@ const Booking = () => {
 
 
         <div className='flex flex-col p-10 max-w-screen-2xl bg-[#1B7996]'>
-          <div className="flex-row gap-6 mx-10 max-w-screen-2x">
+          <div className="flex-row gap-6 mx-24 max-w-screen-2x">
             <h3 className="w-full text-white p-2 xl:p-6 text-[30px] font-semibold">CARI VENUE</h3>
-            <div className="flex flex-col xl:flex-row gap-6 max-w-screen-2xl">
+            <div className="flex flex-col xl:flex-row max-w-screen-2xl">
               <div className="gap-5 my-auto items-center">
                 <div className="flex flex-col xl:flex-row p-6 gap-4 items-center">
-                  <input className='rounded-lg p-4 w-max h-max text-lg' placeholder='Nama Venue'></input>
-                  <input className='rounded-lg p-4 w-max h-max text-lg' placeholder='Pilih Kota'></input>
-                  <input className='rounded-lg p-4 w-max h-max text-lg' placeholder='Pilih Cabor'></input>
+                  <input className='rounded-lg p-4 w-[215px] h-[70px] text-[20px]' placeholder='Nama Venue'></input>
+                  <input className='rounded-lg p-4 w-[215px] h-[70px] text-[20px]' placeholder='Pilih Kota'></input>
+                  <input className='rounded-lg p-4 w-[215px] h-[70px] text-[20px]' placeholder='Pilih Cabor'></input>
                 </div>
               </div>
               <div className="flex flex-col xl:flex-row gap-3 items-center">
@@ -194,9 +194,9 @@ const Booking = () => {
                   className="bg-white p-2 rounded-xl font-extrabold text-2xl hover:bg-black hover:text-white"
                   name="searchbar"
                 >
-                  <FunnelSimple size={35} color="#000000" />
+                  <FunnelSimple size={54} color="#000000" />
                 </button>
-                <button className="bg-white p-3 rounded-xl font-extrabold hover:bg-black hover:text-white">
+                <button className="bg-white w-[150px] h-[70px] p-3 text-[20px] rounded-xl font-extrabold hover:bg-black hover:text-white">
                   Cari Venue
                 </button>
               </div>
