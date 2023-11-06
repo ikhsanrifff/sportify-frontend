@@ -82,7 +82,7 @@ const Booking = () => {
           <p className="p-24 text-[24px] xl:text-[40px] text-white font-bold text-center backdrop-brightness-100">
             BOOKING LAPANGAN ONLINE
           </p>
-          <Link className=" flex -m-14 w-auto" href={"/venue"}>
+          <Link className=" flex -m-14 w-full mx-auto items-center" href={"/venue"}>
             <Link href={'/venue'} className="flex bg-[#E8F703] backdrop-brightness-100 m-auto hover:bg-black text-black hover:text-[#E8F703] p-4 gap-4 rounded-md text-[19px] font-semibold">
               Booking Lapangan
               <div className='m-auto' >
