@@ -8,7 +8,8 @@ const roboto = Roboto({
   subsets: ['latin'],
   style: ['normal', 'italic'],
 })
-export default function VenueLayout({
+
+export default function DashboardLayout({
   children,
 }: {
   children: React.ReactNode
@@ -18,7 +19,6 @@ export default function VenueLayout({
       <body className={roboto.className}>
         <Header />
         {children}
-        <Footer />
       </body>
     </html>
   )

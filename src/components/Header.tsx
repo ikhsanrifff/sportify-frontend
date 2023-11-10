@@ -11,10 +11,10 @@ const Header = () => {
     return (
         <header className='max-w-screen-2xl h-max xl:h-24 overflow-hidden bg-white mx-auto border'>
             <nav className={`${isOpen ? 'flex max-w-screen-2xl h-max xl:h-24 p-2 xl:p-0 mx-auto justify-center' : 'flex max-w-screen-2xl h-max xl:h-24 p-2 xl:p-0 mx-auto justify-between'}`}>
-                <div className={`${isOpen ? 'hidden' : 'ml-8 mt-4 xl:mt-2 p-2  h-[50px] w-[50px] xl:h-[74px] xl:w-[70px] inset-0 bg-cover bg-[url("/logo-neuron-sportify.svg")]'}`}></div>
+                <div className={`${isOpen ? 'hidden' : 'ml-2 xl:ml-8 -mt-2 h-[100px] w-[55px] xl:h-[100px] xl:w-[200px] inset-0 bg-cover bg-[url("/logo-footer.svg")]'}`}></div>
 
 
-                <div className='flex flex-row h-full'>
+                <div className='flex flex-row h-full gap-6 justify-between'>
                     <div className='max-w-screen-2xl flex flex-col w-max h-full xl:w-0 xl:h-0'>
                         <div className='flex max-w-screen-2xl w-full gap-6 bg-white visible lg:invisible h-max p-6 top-0 right-0' >
                             <Link className={`${isOpen ? 'hidden' : 'm-auto'}`} href={'/keranjang'}><ShoppingCartSimple width={32} height={32} /></Link>
@@ -39,7 +39,7 @@ const Header = () => {
                                     </div>
 
                                     <div className='w-[330px] hover:text-[#1B7996] p-3 text-[35px] hover:text-[36px] border-b-2 border-gray-400 hover:border-b-4 hover:border-[#1B7996]'>
-                                        <li className='text-center'><Link className='m-4 font-semibold' href={'/booking'}>Sewa Lapangan</Link></li>
+                                        <li className='text-center'><Link className='m-4 font-semibold' href={'/lapangan'}>Sewa Lapangan</Link></li>
                                     </div>
                                     <Link href={'/login'} className='w-full text-center p-4 border border-[#1B7996] bg-white hover:bg-[#1B7996] rounded-lg hover:text-white text-[#1B7996]'><li className='w-full h-max text-[25px]' >Masuk</li></Link>
                                     <Link href={'/register'} className='w-full text-center p-4 bg-[#1B7996] hover:bg-slate-300 rounded-lg'><li className='w-full h-max text-[25px] text-white' >Daftar</li></Link>
@@ -47,12 +47,12 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={`${isOpen ? 'hidden' : ' items-center p-0 xl:p-6 w-0 xl:w-10/12 h-0 xl:h-24 text-lg invisible xl:visible justify-center'}`}>
+                    <div className={`${isOpen ? 'hidden' : ' items-center p-0 xl:p-6 w-0 xl:w-10/12 h-0 xl:h-24 text-lg invisible xl:visible'}`}>
                         <ul className={`${isOpen ? 'hidden' : 'flex m-3 gap-12'}`}>
                             <li><Link className='rounded-lg text-[20px] font-normal' href={'/home'}>Home</Link></li>
                             <li><Link className='rounded-lg text-[20px] font-normal' href={'/'}>Partnership</Link></li>
                             <li><Link className='rounded-lg text-[20px] font-normal' href={'/'}>About</Link></li>
-                            <li><Link className='rounded-lg text-[20px] font-normal' href={'/booking'}>Sewa Lapangan</Link></li>
+                            <li><Link className='rounded-lg text-[20px] font-normal' href={'/lapangan'}>Sewa Lapangan</Link></li>
                         </ul>
                     </div>
                     <div className={`${isOpen ? 'hidden' : 'p-0 xl:p-6 w-0 xl:w-max h-0 xl:h-24 justify-end end-0 gap-6'}`}>

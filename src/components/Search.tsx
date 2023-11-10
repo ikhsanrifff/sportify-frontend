@@ -4,8 +4,8 @@ import React from 'react'
 
 function Search() {
     return (
-        <div className='z-50 w-[900px] mx-auto bg-white -translate-y-12 rounded-lg border border-[rgba(124,124,124,0.50)] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] p-6 flex gap-14 items-center justify-between'>
-            <div className='flex items-center gap-12'>
+        <div className='z-50 w-[900px] mx-auto bg-white -translate-y-12 rounded-lg border border-[rgba(124,124,124,0.50)] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] p-6 flex gap-10 items-center justify-between'>
+            <div className='flex items-center gap-16'>
 
                 <div className='flex gap-6 items-center'>
                     <MapPin size={60} weight='fill' className='bg-[#1B7996] text-white p-3 rounded-lg ' />
@@ -32,7 +32,7 @@ function Search() {
                 </div>
             </div>
 
-            <button className='flex items-center gap-5 text-[21px] bg-[#7c7c7c] text-white rounded-lg py-2.5 px-5'>
+            <button className='flex items-center gap-5 text-[21px] bg-[#1B7996] text-white hover:bg-slate-400 rounded-lg py-4 px-8'>
                 <span>Temukan</span>
                 <ArrowRight size={32} />
             </button>
